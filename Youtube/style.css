@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: white;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.bars i{
+    padding-top: 30px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.logo img{
+    width: 100px;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+.search-bar{
+    padding-left: 300px;
+    padding-top: 10px;
+}
+.search-bar input{
+    padding: 1px 10px;
+    font-size: 15px;
+    color: gray;
+    width: 515px;
+    border-radius: 40px 0 0 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 2px #eee;
+}
+.search-icon{
+    margin-top: 10px;
+    padding-left: 10px;
+    height: 42px;
+    width: 50px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    border-radius: 0 40px 40px 0;
+    cursor: pointer;
+}
+.search-icon i{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.mic{
+    padding-top: 22px;
+    padding-left: 20px;
+    
+}
+.mic i{
+    cursor: pointer;
+}
+.create{
+    padding-left: 320px;
+    padding-top: 25px;
+}
+.create i{
+    cursor: pointer;
+}
+.notification{
+    padding-left: 30px;
+    padding-top: 25px;
+}
+.notification i{
+    cursor: pointer;
+}
+.profile img{
+    border-radius: 50%;
+    margin-top: 18px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.side-bar{
+    background-color: white;
+    width: 78px;
+    height: 92vh;
+    position: fixed;
+    left: 0;
+}
+.home i{
+    padding-left: 25px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+.home p{
+    margin-top: 10px;
+    margin-left: 23px;
+    font-size: 10px;
+    cursor: pointer;
+    color: #0f0f0f;
+    font-family: roboto;
+}
+.shorts img{
+    margin-top: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.shorts p{
+    cursor: pointer;
+    font-size: 10px;
+    color: #0f0f0f;
+    font-family: roboto;
+    margin-top: 10px;
+    margin-left: 23px;
+}
+.Subscriptions img{
+    margin-top: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.Subscriptions p{
+    cursor: pointer;
+    font-size: 10px;
+    color: #0f0f0f;
+    font-family: roboto;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.library img{
+    margin-top: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.library p{
+    cursor: pointer;
+    font-size: 10px;
+    color: #0f0f0f;
+    font-family: roboto;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.navbar2{
+    background-color: white;
+    width: 95%;
+    height: 60px;
+    margin-left:78px;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top:56px;
+    align-items: center;
+}
+.navbar2 .bt1{
+    height: 32px;
+    background-color: black;
+    width: 50px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    margin-left: 18px;
+    cursor: pointer;
+}
+.navbar2 .bt2{
+    height: 32px;
+    background-color:#0000000D;
+    border-radius: 8px;
+    color: black;
+    border: none;
+    margin-left: 18px;
+    cursor: pointer;
+}
+.navbar2 .bt2:hover{
+    background-color: #4a3f3f0d;
+}
+.main-content{
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left:78px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-content img{
+    border-radius: 10px;
+}
+.videos{
+    margin-right: 25px;
+    cursor: pointer;
+}
+.logo-title{
+    display: flex;
+}
+.logo-title p{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.main-content .channel-logo{
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.channel-name{
+    font-size: 14px;
+    color: #606060;
+    font-family:'Roboto', sans-serif;
+    margin-left: 55px;
+}
+.views-time{
+    font-size: 14px;
+    color: #606060;
+    font-family:'Roboto', sans-serif;
+    margin-left: 55px;
+}
+.main-content2{
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-left:78px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-content2 img{
+    border-radius: 10px;
+}
+.videos{
+    margin-right: 25px;
+    cursor: pointer;
+}
+.logo-title{
+    display: flex;
+}
+.logo-title p{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.main-content2 .channel-logo{
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.channel-name{
+    font-size: 14px;
+    color: #606060;
+    font-family:'Roboto', sans-serif;
+    margin-left: 55px;
+}
+.views-time{
+    font-size: 14px;
+    color: #606060;
+    font-family:'Roboto', sans-serif;
+    margin-left: 55px;
+}
